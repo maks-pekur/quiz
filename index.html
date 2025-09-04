@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description"
+      content="Beantworten Sie ein paar einfache Fragen und erhalten Sie einen maßgeschneiderten Finanzplan. Finden Sie heraus, wie Sie investieren und Ihre Ziele erreichen können.">
+
+   <link rel="icon" href="./favicon.png" />
+
+   <title>Finanzieller Selbsttest – Erstellen Sie Ihren Investitionsplan</title>
+
+   <link rel="stylesheet" href="./assets/css/fonts.css">
+   <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+   <div class="app">
+      <header class="app__header">
+         <img src="./assets/images/svg/logo.svg" alt="logo" class="app__logo">
+      </header>
+
+      <main id="wrapper" class="main-wrapper">
+         <div id="quiz-container" class="quiz-container">
+            <div class="quiz__progress" id="progress"></div>
+            <h1 class="quiz__title" id="block_title"></h1>
+            <p class="quiz__description" id="block_description" style="display: none"></p>
+
+            <div class="quiz__content">
+               <div class="quiz-block">
+                  <div id="quiz" class="quiz"></div>
+                  <div id="custom-loader" class="loader"></div>
+                  <button id="final_btn" class="final_btn" style="display: none;">JETZT ANMELDEN</button>
+               </div>
+
+               <div id="quiz__controls" class="quiz__controls">
+                  <button id="prev_btn" class="quiz__btn quiz__btn--prev">
+                     <img src="./assets/images/svg/arrow.svg" alt="arrow-left">
+                  </button>
+                  <button id="next_btn" class="quiz__btn quiz__btn--next">
+                     <img src="./assets/images/svg/arrow.svg" alt="arrow-right">
+                  </button>
+               </div>
+            </div>
+         </div>
+      </main>
+   </div>
+
+   <script type="module" src="./assets/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description"
+      content="Beantworten Sie ein paar einfache Fragen und erhalten Sie einen maßgeschneiderten Finanzplan. Finden Sie heraus, wie Sie investieren und Ihre Ziele erreichen können.">
+
+   <link rel="icon" href="./favicon.png" />
+
+   <title>Finanzieller Selbsttest – Erstellen Sie Ihren Investitionsplan</title>
+
+   <link rel="stylesheet" href="./assets/css/fonts.css">
+   <link rel="stylesheet" href="./assets/css/styles.css">
+
+   <script type="module">
+      import { applyBackground } from "./assets/js/utils/background.js";
+
+      window.addEventListener("DOMContentLoaded", () => {
+         applyBackground({background: "13.webp"});
+      });
+   </script>
+</head>
+
+<body>
+   <div class="app">
+      <header class="app__header">
+         <img src="./assets/images/svg/logo.svg" alt="logo" class="app__logo">
+      </header>
+
+      <main id="wrapper" class="main-wrapper">
+         <section class="form-section">
+            <h2 class="section-title">JETZT ANMELDEN</h2>
+            <p class="section-subtitle">Füllen Sie das Formular aus und wir senden Ihnen die vollständigen Ergebnisse
+               und die nächsten Schritte
+               zu.</p>
+
+            <div class="form-wrapper">
+               <form class="form-stub">
+                  <label for="name">Vorname</label>
+                  <input type="text" id="name" placeholder="Ihr Name" disabled>
+
+                  <label for="email">E-Mail</label>
+                  <input type="email" id="email" placeholder="Ihre E-Mail" disabled>
+
+                  <label for="phone">Telefonnummer</label>
+                  <input type="tel" id="phone" placeholder="Ihre Telefonnummer" disabled>
+
+                  <button type="button" disabled>Absenden</button>
+
+                  <p>Dies ist eine Demo-Formular-Zeichenfläche</p>
+               </form>
+            </div>
+         </section>
+      </main>
+   </div>
+
+   
+</body>
+
+</html>
